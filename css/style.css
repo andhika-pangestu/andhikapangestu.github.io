@@ -3,6 +3,7 @@
     --primary: #2124B1;
     --secondary: #4777F5;
     --light: #F7FAFF;
+    --grey: #606778;
     --dark: #1D1D27;
     --yellow: #FFE779;
     --yellow2:#FFC107;
@@ -942,7 +943,11 @@ h6,
     position: relative;
     margin-left: 40px;
     padding: 25px 0;
+
     color: var(--light) !important;
+
+    color: var(--grey) !important;
+
     outline: none;
     transition: .5s;
 }
@@ -958,7 +963,11 @@ h6,
 }
 
 .navbar-light .navbar-brand h1 {
+
     color: #FFFFFF;
+
+    color: #b3ff00bc;
+
 }
 
 .navbar-light .navbar-brand img {
@@ -1079,6 +1088,15 @@ h6,
     border-width: 6px !important;
   }
 
+
+
+.bg-230 {
+    background-color: #FFE779 !important;
+    border-width: 6px !important;
+}
+
+
+
 .border {
     border: 5px solid #000000 !important;
   }
@@ -1148,7 +1166,11 @@ h6,
 }
 
 .service-item:hover {
+
     background: var(--primary);
+
+    background: var(--yellow);
+
 }
 
 .service-item .service-icon {
@@ -1164,7 +1186,9 @@ h6,
 }
 
 .service-item:hover .service-icon {
+
     color: var(--primary);
+    color: var(--yellow);
     background: url(../img/icon-shape-white.png);
 }
 
@@ -1181,13 +1205,21 @@ h6,
 .service-item a.btn {
     position: relative;
     display: flex;
+
     color: var(--primary);
+
+    color: var(--yellow);
+
     transition: .5s;
     z-index: 1;
 }
 
 .service-item:hover a.btn {
+
     color: var(--primary);
+
+    color: var(--yellow);
+
 }
 
 .service-item a.btn::before {
@@ -1240,7 +1272,11 @@ h6,
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item h6 {
+
     color: var(--dark) !important;
+
+    color: var(--light) !important;
+
 }
 
 
